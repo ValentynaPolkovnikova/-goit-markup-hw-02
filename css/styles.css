@@ -14,7 +14,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1,5;
 letter-spacing: 0.02em;
-color: var(--SLATE, #434455);
+color: #434455;
 background-color: #ffffff; 
 }
 
@@ -26,33 +26,43 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 }
 .logotype {
-color: var(--NAVY-BLUE, #2E2F42);
+color: #2e2f42; 
 font-family: 'Raleway', sans-serif;
 text-transform: uppercase;
 }
 .accent-logo {
-color: var(--IRIS, #4D5AE5);
+color: #4D5AE5;
+}
+.menu-link {
+color: #2e2f42;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .menu-link:hover,
 .menu-link:focus {
-color: #2E2F42;
+color: #404bbf;
 }
 .contacts:hover,
 .contacts:focus {
-color: var(--NAVY-BLUE, #2E2F42);
+color: #404bbf;
 }
 .contacts {
-color: var(--SLATE, #434455);
+font-size: 16px;
 font-weight: 400;
 font-style: normal;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 /* ============= MAIN ============= */
 .business {
 background-color: #2E2F42;
-width: 1440px;
+/*width: 1440px;
 height: 600px;
-/*top: 72px;*/
+top: 72px;*/
 }
 .business-text {
 color: #ffffff;
@@ -62,7 +72,7 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-width: 496px;
+/*width: 496px;*/
 }
 .button-main {
 background-color: #4d5ae5;
@@ -73,12 +83,12 @@ letter-spacing: 0.04em;
 /*padding: 16px 32px;
 display: inline-flex;
 align-items: flex-start;
-gap: 10px;*/
+gap: 10px;
 border-radius: 4px;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);*/
 }
-.button-hero:hover,
-.button-hero:focus {
+.button-main:hover,
+.button-main:focus {
 background-color: #404bbf;
 }
 
@@ -99,7 +109,15 @@ letter-spacing: 0.02em;
 .team {
 background-color: #f4f4fd;
  }
-.team-list {
+.team-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:#2e2f42;
+ }
+.team-list-item{
 background-color: #ffffff;
  }
 
@@ -132,12 +150,12 @@ letter-spacing: 0.02em;
 /* ============= FOOTER ============= */
 footer {
 background-color: #2e2f42;
-width: 1440px;
+/*width: 1440px;
 height: 312px;
-/*flex-shrink: 0;*/
+flex-shrink: 0;*/
 }
-.logo-footer {
-color: var(--CLOUD, #F4F4FD);
+.logotype-white {
+color: #F4F4FD; 
 font-family: 'Raleway', sans-serif;
 font-size: 18px;
 font-weight: 700;
@@ -146,9 +164,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .footer-text {
-color: var(--CLOUD, #F4F4FD);
+color: #F4F4FD;
 font-weight: 400;
-width: 264px;
+/*width: 264px;*/
 line-height: 1.5;
 letter-spacing: 0.02em;
 }  
