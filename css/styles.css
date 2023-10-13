@@ -53,6 +53,9 @@ letter-spacing: 0.02em;
 .menu-link:focus {
 color: #404bbf;
 }
+.contacts {
+font-style: normal;    
+}
 .menu-link-contacts:hover,
 .menu-link-contacts:focus {
 color: #404bbf;
@@ -60,7 +63,6 @@ color: #404bbf;
 .menu-link-contacts {
 font-size: 16px;
 font-weight: 400;
-font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
