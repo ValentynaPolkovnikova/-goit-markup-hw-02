@@ -15,7 +15,9 @@ letter-spacing: 0.02em;
 color: #434455;
 background-color: #ffffff; 
 }
-
+button {
+cursor: pointer;    
+}
 /* ============= HEADER ============= */
 header {
 font-weight: 700;
